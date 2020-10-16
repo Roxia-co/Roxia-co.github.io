@@ -170,7 +170,7 @@
     }
 
     .section_padding_200 {
-        padding: 200px 0;
+        padding: 150px 0;
     }
 
     .section_heading {
@@ -850,7 +850,7 @@
     .our_speciality_area {
         background-image: url(img/bg-pattern/breadcumb.jpg);
         background-position: center center;
-        background-size: cover;
+        background-size: auto;
         position: relative;
         z-index: 1;
         background-attachment: fixed;
