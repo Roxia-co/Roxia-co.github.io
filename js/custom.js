@@ -159,7 +159,7 @@
     // Preloader active code
     $(window).on('load', function () {
         $('body').css('overflow-y', 'visible');
-        $('#preloader').fadeOut('slow', function () {
+        $('#preloader').fadeOut(500 , function () {
             $(this).remove();
         });
     });
