@@ -601,7 +601,7 @@
 
     .about_us_thumb {
         background-color: #fff;
-        box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1);
+        /*box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1);*/
         padding: 15px;
         border-radius: 6px;
     }
