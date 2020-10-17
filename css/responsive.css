@@ -19,6 +19,14 @@
     .mainmenu ul#nav li a {
         padding: 40px 10px;
     }
+    .gallery_area .single_gallery_item {
+        width: 28%
+    }
+    .logo_area {
+        padding: 10px 0;
+        margin-top: 10%;
+        width:150%; 
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -63,7 +71,7 @@
         margin-top: 15px
     }
     .gallery_area .single_gallery_item {
-        width: 50%
+        width: 28%
     }
     .single_latest_news_area {
         margin-bottom: 30px
@@ -86,6 +94,11 @@
     }
     .gallery_full_width_images_area{
         width: 95%; margin:0 auto;
+    }
+    .logo_area {
+        padding: 10px 0;
+        margin-top: 20%;
+        width:150%; 
     }
 }
 
@@ -287,9 +300,6 @@
     .timeline_text_content {
         padding: 10px
     }
-    .logo_area {
-        padding: 10px 0
-    }
     .why_choose_us_image {
         text-align: center;
     }
@@ -298,6 +308,10 @@
     }
     .gallery_full_width_images_area{
         width: 95%; margin:0 auto;
+    }
+    .logo_area {
+        padding: 10px 0;
+        width:70%; 
     }
 }
 
@@ -320,5 +334,9 @@
     }
     .gallery_full_width_images_area{
         width: 95%; margin:0 auto;
+    }
+    .logo_area {
+        padding: 10px 0;
+        width:70%; 
     }
 }
