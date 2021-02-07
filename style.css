@@ -136,15 +136,30 @@
 
     .table_cell {
         display: table-cell;
-        vertical-align: middle;
+        padding-top: 150px;
     }
 
     .margin_top_30 {
         margin-top: 30px;
     }
 
+    .section_padding_0_50 {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+
+    .section_padding_50 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
     .section_padding_150 {
         padding: 150px 0;
+    }
+
+    .section_padding_100_150 {
+        padding-top: 100px;
+        padding-bottom: 150px;
     }
 
     .section_padding_100 {
@@ -154,6 +169,16 @@
     .section_padding_100_0 {
         padding: 100px 0 0 0;
     }
+    
+    .section_padding_200_150 {
+        padding-top: 200px;
+        padding-bottom: 150px;
+    }
+
+    .section_padding_150_150 {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
 
     .section_padding_0_100 {
         padding: 0 0 100px 0;
@@ -161,6 +186,11 @@
 
     .section_padding_100_50 {
         padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .section_padding_50_50 {
+        padding-top: 50px;
         padding-bottom: 50px;
     }
 
@@ -370,11 +400,17 @@
         background-color: #fff;
     }
 
-    .about_area,
-    .why_choose_us_area,
-    .timeline_area,
-    .message_now_area {
+    .about_area {
         background-color: #fff;
+    }
+
+    .timeline_area {
+        background-color: #fff;
+    }
+
+    .why_choose_us_area,
+    .message_now_area {
+        background-color: #f6f6f6;
     }
 
     /* >>>>>>>>>>>>>> :: 5.0 Slider Area CSS <<<<<<<<<<<<<<< */
@@ -398,7 +434,7 @@
         height: 100%;
         top: 0;
         left: 0;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.0);
         content: "";
     }
 
@@ -627,7 +663,7 @@
 
     /* >>>>>>>>>>>>>> :: 8.0 Services Area CSS <<<<<<<<<<<<<<< */
     .what_we_do_area {
-        background-color: #f6f6f6;
+        background-color: #fff;
     }
 
     .single_service {
@@ -784,9 +820,9 @@
 
     /* >>>>>>>>>>>>>> :: 10.0 Speciality Area CSS <<<<<<<<<<<<<<< */
     .our_speciality_area {
-        background-image: url(img/bg-pattern/bg-1.jpg);
+        background-image: url(img/bg-pattern/bg-1.png);
         background-position: center center;
-        background-size: auto;
+        background-size: cover;
         position: relative;
         z-index: 1;
         background-attachment: fixed;
@@ -794,7 +830,7 @@
     }
 
     .our_speciality_area:before {
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(0, 0, 0, 0.6);
         content: "";
         height: 100%;
         left: 0;
@@ -1146,7 +1182,7 @@
     }
 
     .advisor_thumb > img {
-        border: 15px solid #6A93CB
+        border: 15px solid #647DEE
     }
 
     .single_advisor_details_info {
@@ -1958,8 +1994,8 @@
 
     /* >>>>>>>>>>>>>> :: 23.0 Gallery Area CSS <<<<<<<<<<<<<<< */
     .gallery_area {
-        background-color: #f6f6f6;
-        padding-bottom: 0;
+        background-color: #fff;
+        
     }
 
     .gallery_area .single_gallery_item {
@@ -1983,11 +2019,11 @@
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
     }
-
+/*
     .gallery_area .single_gallery_item > a {
         cursor: url(img/core-img/add.png), auto;
     }
-
+*/
     .gallery_area .single_gallery_item .hover_overlay {
         background-color: rgba(255, 255, 255, 0.85);
         bottom: 5%;
@@ -2438,11 +2474,12 @@
         color: #f39c12;
     }
 
-    /* >>>>>>>>>>>> Gradient Version Area CSS <<<<<<<<<<<< */
-    .gradient_version .single_slide:before,
+    /* >>>>>>>>>>>> Gradient Version Area CSS <<<<<<<<<<<< 
+    .gradient_version .single_slide:before,*/
     .gradient_version .video_area:before,
     .gradient_version .our_speciality_area:before,
     .gradient_version .faq_question_area:before,
+    /*
     .gradient_version .testimonial_area:before {
         opacity: 0.50;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
@@ -2450,6 +2487,15 @@
         background: -webkit-linear-gradient(to left, #FC575E, #90D5EC);
         background: -webkit-linear-gradient(right, #FC575E, #90D5EC);
         background: linear-gradient(to left, #FC575E, #90D5EC);
+    }
+    */
+    .gradient_version .testimonial_area:before {
+        opacity: 0.50;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        background: -webkit-linear-gradient(to left, #4c2e9c, #a764df);
+        background: -webkit-linear-gradient(right, #4c2e9c, #a764df);
+        background: linear-gradient(to left, #4c2e9c, #a764df);
+
     }
 
     /* >>>>>>>>>>>>> Text Slider Area CSS <<<<<<<<<<<<< */
@@ -2481,4 +2527,12 @@
 
     .gallery_full_width_images_area{
         width: 75%; margin:0 auto;
+    }
+
+    #hide {
+        display: none;
+    }
+
+    .i-am-centered { 
+        margin: auto; 
     }
