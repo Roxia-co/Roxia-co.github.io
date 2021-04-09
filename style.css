@@ -1172,7 +1172,7 @@
     }
 
     .advisor_thumb {
-        bottom: 0;
+        /* bottom: 0; */
         height: auto;
         left: 35px;
         position: absolute;
